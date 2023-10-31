@@ -1,0 +1,35 @@
+{
+    "main": "index.js",
+    "id": "",
+    "name": "NotificationVolume",
+    "author": "philipbry",
+    "authorId": "554994003318276106",
+    "authorLink": "https://github.com/philipbry",
+    "version": "1.0.0",
+    "description": "Separate volume adjustment for notifications",
+    "website": "",
+    "source": "",
+    "patreon": "",
+    "donate": "",
+    "invite": "",
+    "changelog": [],
+    "defaultConfig": [
+        {
+            "type": "slider",
+            "id": "notifvolume",
+            "name": "Notification Volume",
+            "note": "Select a volume used for notification sounds",
+            "min": 0,
+            "max": 100,
+            "value": 100,
+            "markers": [
+                0,
+                25,
+                50,
+                75,
+                100
+            ],
+            "units": "%"
+        }
+    ]
+}
